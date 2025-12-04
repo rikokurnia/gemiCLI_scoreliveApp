@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Cricket Scores</title>
+</head>
+<body>
+    <h1>Live Cricket Scores</h1>
+    <ul>
+        {% for entry in entries %}
+            <li>{{ entry.title }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
